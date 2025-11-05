@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Strony JGóra – Tworzę nowoczesne strony internetowe</title>
+<style>
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #0f0f0f;
+  color: #f0f0f0;
+}
+header {
+  text-align: center;
+  padding: 80px 20px;
+  background: linear-gradient(90deg, #141414, #1e1e1e);
+  border-bottom: 2px solid #222;
+}
+h1 {
+  font-size: 42px;
+  margin-bottom: 10px;
+}
+h2 {
+  color: #ffb400;
+  margin-top: 60px;
+  text-align: center;
+  font-size: 30px;
+}
+p {
+  line-height: 1.6;
+}
+.section {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+.offer-box {
+  background: #1a1a1a;
+  border: 1px solid #2a2a2a;
+  border-radius: 12px;
+  padding: 25px;
+  margin: 20px 0;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.offer-box:hover {
+  transform: scale(1.02);
+  box-shadow: 0 0 15px rgba(255,180,0,0.3);
+}
+.price {
+  color: #ffb400;
+  font-weight: bold;
+  font-size: 20px;
+}
+.portfolio {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 20px;
+}
+.portfolio-item {
+  background: #1a1a1a;
+  border-radius: 10px;
+  overflow: hidden;
+  border: 1px solid #2a2a2a;
+  transition: transform 0.2s ease;
+}
+.portfolio-item:hover {
+  transform: scale(1.03);
+}
+.portfolio-item img {
+  width: 100%;
+  display: block;
+}
+.portfolio-item p {
+  padding: 10px 15px;
+  margin: 0;
+  color: #ccc;
+  font-size: 15px;
+}
+.contact {
+  text-align: center;
+  margin-top: 40px;
+}
+.contact a {
+  color: #ffb400;
+  text-decoration: none;
+  font-weight: bold;
+}
+footer {
+  text-align: center;
+  background: #111;
+  color: #777;
+  padding: 20px;
+  border-top: 1px solid #222;
+}
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Strony JGóra</h1>
+  <p>Tworzę nowoczesne i szybkie strony internetowe dla firm i freelancerów.</p>
+</header>
+
+<section class="section">
+  <h2>Oferta</h2>
+
+  <div class="offer-box">
+    <h3>Wizytówka firmowa</h3>
+    <p>Jednostronicowa strona z opisem działalności, mapą i formularzem kontaktowym.</p>
+    <p class="price">Cena: od 999 zł</p>
+  </div>
+
+  <div class="offer-box">
+    <h3>Strona firmowa</h3>
+    <p>Nowoczesny projekt, 3–5 podstron, optymalizacja SEO, pełna responsywność.</p>
+    <p class="price">Cena: od 1699 zł</p>
+  </div>
+
+  <div class="offer-box">
+    <h3>Sklep internetowy</h3>
+    <p>Sklep WooCommerce z płatnościami online, integracją z kurierami i panelem administracyjnym.</p>
+    <p class="price">Cena: od 3999 zł</p>
+  </div>
+</section>
+
+<section class="section">
+  <h2>Portfolio</h2>
+  <div class="portfolio">
+    <div class="portfolio-item">
+      <img src="https://via.placeholder.com/400x250/222/fff?text=Realizacja+1" alt="Realizacja 1">
+      <p>Strona dla lokalnego biznesu</p>
+    </div>
+    <div class="portfolio-item">
+      <img src="https://via.placeholder.com/400x250/222/fff?text=Realizacja+2" alt="Realizacja 2">
+      <p>Landing page – kampania reklamowa</p>
+    </div>
+    <div class="portfolio-item">
+      <img src="https://via.placeholder.com/400x250/222/fff?text=Realizacja+3" alt="Realizacja 3">
+      <p>Sklep internetowy – mała firma</p>
+    </div>
+  </div>
+</section>
+
+<section class="section contact">
+  <h2>Kontakt</h2>
+  <p>Masz pytania? Napisz do mnie!</p>
+  <p>📧 <a href="mailto:kontakt@stronyjgora.pl">kontakt@stronyjgora.pl</a></p>
+  <p>📱 <a href="tel:+48123456789">+48 123 456 789</a></p>
+</section>
+
+<footer>
+  © 2025 Strony JGóra – tworzenie stron internetowych
+</footer>
+
+</body>
+</html>
